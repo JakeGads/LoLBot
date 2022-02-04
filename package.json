@@ -1,0 +1,11 @@
+{
+  "name": "lolbot",
+  "version": "1.0.0",
+  "description": "typescript project to read lol stats for a fantasy npx tsc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake",
+  "license": "ISC"
+}
