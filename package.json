@@ -1,11 +1,15 @@
 {
   "name": "lolbot",
   "version": "1.0.0",
-  "description": "typescript project to read lol stats for a fantasy npx tsc",
-  "main": "index.js",
+  "description": "typescript project to read lol stats for a fantasy league",
+  "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "tsc --project ./",
+    "exe": "npm run compile && node src/index.js"
   },
   "author": "Jake",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  }
 }
