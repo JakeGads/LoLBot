@@ -1,2 +1,3 @@
 "use strict";
-console.log("yehaw");
+require('dotenv').config();
+console.log(process.env.TOKEN);

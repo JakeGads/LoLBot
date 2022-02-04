@@ -10,6 +10,10 @@
   "author": "Jake",
   "license": "ISC",
   "dependencies": {
+    "curl": "^0.1.4",
     "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14"
   }
 }
